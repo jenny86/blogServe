@@ -1,0 +1,28 @@
+{
+  "name": "blogservice",
+  "version": "1.0.0",
+  "description": "myblog service for nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mysql",
+    "nodejs",
+    "koa",
+    "nodemysql"
+  ],
+  "dependencies": {
+    "fs.promised": "^3.0.0",
+    "koa": "^2.3.0",
+    "koa-body": "^2.3.0",
+    "koa-compose": "^4.0.0",
+    "koa-cors": "^0.0.16 ",
+    "koa-route": "^3.2.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^4.0.1",
+    "mysql": "^2.16.0"
+  },
+  "author": "jenny",
+  "license": "ISC"
+}
